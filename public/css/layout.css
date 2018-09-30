@@ -505,7 +505,7 @@ ul#nav li.current a {
 
 
 /* ------------------------------------------------------------------ */
-/* f. records Section
+/* f. record Section
 /* ------------------------------------------------------------------ */
 
 #records {
@@ -533,7 +533,7 @@ ul#nav li.current a {
 }
 
 
-/* records Content */
+/* record Content */
 #records-wrapper .columns { margin-bottom: 36px; }
 .records-item .item-wrap {
     background: #fff;

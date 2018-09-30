@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\records;
+use App\record;
 
 class WelcomeController extends Controller
 {
@@ -19,7 +19,7 @@ class WelcomeController extends Controller
 
     public function index()
     {
-        $records = \Records::all();
+        $records = \record::all();
         return view('welcome')->with('bd',$records);
     }
 }
