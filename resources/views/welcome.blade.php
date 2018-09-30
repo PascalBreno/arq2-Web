@@ -84,6 +84,7 @@
                 <a  href="{{ route('register') }}"><button class=button">Criar sua conta </button> </a>
             @else
                 <h2>Seja bem vindo, <span class="caret">{{ Auth::user()->name }}</span></h2>
+                <h2 >Seu ID parece acessar o jogo <span style="color:white;">{{Auth::user()->id}}</span></h2>
                         <a  href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -114,13 +115,8 @@
                         <div class="nine columns main-col">
                             <h2>Sobre o projeto</h2>
 
-                            <p>O projeto consiste em um sistema de x jogos, o primeiro de operações matemáticas; o segundo complemento de dois; e o último hhhhh. O objetivo destes jogos é o entretenimento e testar os conhecimentos do usuário em certas áreas de conhecimento. As informações do usuário serão armazenadas contendo uma identificação e seus recordes nos jogos que acessou.
-
-                                1.1 Operações matemáticas: neste jogo o usuário analisa algumas expressões matemáticas (das quatro operações básicas) e julga o resultado como certo ou errado, escolhendo entre dois botões que correspondem ao julgamento do usuário. A pontuação é com base na quantidade de acertos em um tempo limite de trinta segundos.
-                                1.2 Complemento de dois:
-
-                                Grupo de Trabalho
-                                O grupo responsável por este projeto é formado pelos alunos: Breno  Felix de Souza, David Henrique da Luz Sampaio, Henrique Petrucci Teixeira Rabelo e Pedro Augusto Salamoni.</p>
+                            <p>O projeto consiste de um mini-game que contem 3 jogos,
+                                o primeiro é um jogo de matematica que testa o conhecimento do jogador em somas, subtrações, multiplacações e divisões, o segundo jogo se baseia em perguntas e respostas para testar o conhecimento do jogador em diversas áreas, o terceiro jogo é baseado em binario, esse apresenta para o jogador um numero em binário e o jogador devera responder o complemento de dois desse numero. É apresentada ao jogador a opção de criar conta em nosso site para que esse receba sua ID que será utilizada pra salvar os recordes do jogador em cada jogo. O jogo foi desenvolvido pelos alunos Breno, David, Henrique e Pedro que cursam Ciencia da Computação da UFMT para a disciplina de Arquitetura de Computadores 2.</p>
 
                         </div> <!-- end .main-col -->
 
@@ -265,8 +261,11 @@
                         <div class="twelve columns collapsed">
 
                             <h1><span>Records</span></h1>
-
-
+                            @foreach( $bd as $bds)
+                                <div style="margin-top:2%;" class="col col-md-2 col-xs-2">
+                                    <h2>{{$bd->JogoA}}</h2>
+                                </div>
+                            @endforeach
                         </div> <!-- twelve columns end -->
 
                     </div>
