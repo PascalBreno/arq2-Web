@@ -61,7 +61,7 @@
             <li><a class="smoothscroll" href="#about">Sobre o projeto</a></li>
             <li><a class="smoothscroll" href="#experience">Equipamentos</a></li>
             <!-- <li><a class="smoothscroll" href="#education">Education</a></li> -->
-            <li><a class="smoothscroll" href="#portfolio">Records</a></li>
+            <li><a class="smoothscroll" href="#records">Records</a></li>
             <!-- <li><a class="smoothscroll" href="#photos">Photos :)</a></li> -->
             <!-- <li><a class="smoothscroll" href="#photos">Photos :)</a></li> -->
             <li><a class="smoothscroll" href="#contact">Grupo</a></li>
@@ -146,55 +146,53 @@
 
                                 <div class="nine columns">
 
-                                    <h3>Big Data Analysis</h3>
+                                    <h3>Equipamentos Utilizados</h3>
 
                                     <p class = 'info'>
-                                        Many of the data that we work on is obtained via scraping data from internet pages. We also usually follow and manipulate some databases the Brazilian government makes available. These are:
+                                        O projeto é dividido em duas partes básicas a física que corresponde aos componentes eletrônicos; e um sistema que irá armazenar os recordes e as informações do jogador.
+
+                                    </p>
+                                </div>
+
+
+                            </div> <!-- item end -->
+
+                        </div>
+
+                        <div class="twelve columns main-col">
+                            <div class="row item">
+
+                                <div class="nine columns">
+
+                                    <h3>Software</h3>
+
+                                    <p>
+                                        A parte de software do projeto é o sistema que contém os jogos implementados no arduino e organizados através de um menu, que quando acionado pelo teclado direciona para o jogo em questão. Também faz parte do sistema uma página web onde constará o histórico de recordes vinculados aos respectivos jogadores.                                    </p>
+                                </div>
+
+
+                            </div> <!-- item end -->
+
+                        </div>
+
+                        <div class="twelve columns main-col">
+                            <div class="row item">
+
+                                <div class="nine columns">
+
+                                    <h3>Hardware</h3>
+
+                                    <p>
+                                        A parte física é formada por duas breadboards que são a base para receber os demais componentes. A interação entre usuário e jogo é feita com um teclado de 16 teclas por onde os comandos são emitidos e um display LCD Nokia 5110 por onde o usuário visualiza todas as informações necessárias para jogar; a comunicação web é feita com o módulo  ESP8266 Wi-fi; arduino mega; e componentes menores: resistores e jumpers.
+                                    </p>
                                     <ul>
-                                        <li>Censo Demográfico</li>
-                                        <li>Pesquisa Nacional por Amostra de Domicílios - PNAD</li>
-                                        <li>Pesquisa de Orçamento Familiar - POF</li>
-                                        <li>Pesquisa Mensal de Emprego - PME</li>
-                                        <li>Censo da Educação Superior</li>
-                                        <li>Censo Escolar</li>
-                                        <li>ENEM</li>
-                                        <li>ENADE</li>
+                                        <li>Breadboards</li>
+                                        <li>Teclado de 16 teclas</li>
+                                        <li>Display LCD Nokia 5110</li>
+                                        <li>Módulo  ESP8266 Wi-fi</li>
+                                        <li>Arduino mega</li>
+                                        <li>Resistores e jumpers</li>
                                     </ul>
-                                    </p>
-                                </div>
-
-
-                            </div> <!-- item end -->
-
-                        </div>
-
-                        <div class="twelve columns main-col">
-                            <div class="row item">
-
-                                <div class="nine columns">
-
-                                    <h3>Text Mining</h3>
-
-                                    <p>
-                                        We use NLP Natural Language Processing to analyze the contents of articles and patents. The idea is to obtain the content of a set of documents, via language filters to return candidate terms, without the need to read those documents. The analysis of the importance of these candidate terms is done by metrics such as tf-idf.
-                                    </p>
-                                </div>
-
-
-                            </div> <!-- item end -->
-
-                        </div>
-
-                        <div class="twelve columns main-col">
-                            <div class="row item">
-
-                                <div class="nine columns">
-
-                                    <h3>Web Scraping</h3>
-
-                                    <p>
-                                        Automated processes implemented using a bot. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
-                                    </p>
                                 </div>
 
 
@@ -216,33 +214,13 @@
                                 <div class="nine columns">
 
                                     <h3>C</h3>
-                                    <p class="info">Arduino<span>&bull;</span>Programming language<span></p>
+                                    <p class="info">Arduino<span>&bull;</span>Programming language</p>
 
                                     <ul>
-                                        <li>allows you to analyze data in a proficient way with a few lines of code. The great availability of packages, free software, community and flexibility are the strongest points to choose R as a work tool.</li>
+                                        <li>Arduíno é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++. O objetivo do projeto é criar ferramentas que são acessíveis, com baixo custo, flexíveis e fáceis de se usar por principiantes e profissionais. Principalmente para aqueles que não teriam alcance aos controladores mais sofisticados e ferramentas mais complicadas.</li>
                                     </ul>
                                 </div>
 
-                                <div class="three push-1 columns">
-                                    <a href="http://cs.illinois.edu/" target="_blank"><img class="cs-pic" src="images/r.png" alt="cs_illinois_logo" /></a>
-                                </div>
-
-                            </div> <!-- item end -->
-
-                            <div class="row item">
-
-                                <div class="ten columns">
-
-                                    <h3>Python</h3>
-                                    <p class="info">Programming Language</p>
-                                    <ul>
-                                        <li>Python supports multiple programming paradigms, including object-oriented, imperative, functional and procedural, and has a large and comprehensive standard library.  </li>
-                                    </ul>
-                                </div>
-
-                                <div class="two columns">
-                                    <a href="http://groupon.com" target="_blank"><img class="groupon-pic" src="images/python.png" alt="groupon_logo" /></a>
-                                </div>
 
                             </div> <!-- item end -->
 
@@ -251,14 +229,24 @@
                                 <div class="ten columns">
 
                                     <h3>SQL</h3>
-                                    <p class="info">DataBase<span>&bull; Expertise</span></p>
+                                    <p class="info">Data Base Programming Language</p>
                                     <ul>
-                                        <li>We analyzed and projected data from a wide range of database management systems.</li>
+                                        <li>Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de pesquisa declarativa padrão para banco de dados relacional (base de dados relacional). Muitas das características originais do SQL foram inspiradas na álgebra relacional. </li>
                                     </ul>
                                 </div>
 
-                                <div class="two columns">
-                                    <a href="http://apple.com" target="_blank"><img class="apple-pic" src="images/sql.jpeg" alt="apple_logo" /></a>
+
+
+                            </div> <!-- item end -->
+
+                            <div class="row item">
+
+                                <div class="ten columns">
+
+                                    <h3>Laravel</h3>
+                                    <p class="info">PHP<span>&bull; Framework</span> + javascript</p>
+                                    <ul>
+                                        <li>O Laravel é um framework de desenvolvimento rápido para PHP, livre e de código aberto. Cuja o principal objetivo é permitir que você trabalhe de forma estruturada e rápida.</ul>
                                 </div>
 
                             </div> <!-- item end -->
@@ -270,9 +258,7 @@
                 </section> <!-- Experience Section End-->
 
 
-                <!-- Portfolio Section
-                ================================================== -->
-                <section id="portfolio">
+                <section id="records">
 
                     <div class="row">
 
@@ -283,295 +269,12 @@
 
                         </div> <!-- twelve columns end -->
 
-
+                    </div>
                         <!-- Modal Popup
                         ================================================== -->
 
-                        <div id="modal-00" class="popup-modal mfp-hide">
 
-                            <img class="scale-with-grid" src="images/portfolio/tecc.png" alt="410" />
-
-                            <div class="description-box">
-                                <h4>Technology Forecasting</h4>
-                                <ul>
-                                    <li>technological forecasting via curriculum, articles and patent analyzes</li>
-                                </ul>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Text mining, NLP, Network, Patents, Papers</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="google.com.br" target="_blank">View Demo</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-00 End -->
-
-                        <div id="modal-01" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" src="images/portfolio/bioenergy.png" alt="410" />
-
-                            <div class="description-box">
-                                <h4>Bioenergy Patent Networks</h4>
-                                <ul>
-                                    <li>Responsive Network created from uspto patents</li>
-                                    <li>using vis.js</li>
-                                </ul>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Data Visualization, Social Visualization, vis.js, network</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="projects/bioenergy_patent.html" target="_blank">Open Network</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-01 End -->
-
-                        <div id="modal-02" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" src="images/portfolio/gametheory.png" alt="410" />
-
-                            <div class="description-box">
-                                <h4>AccentDiff</h4>
-                                <ul>
-                                    <li>Reponsive Network created from Scopus papers</li>
-                                    <li>using vis.js</li>
-                                </ul>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Data Visualization, Social Visualization, vis.js</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="projects/gametheory_papers.html" target="_blank">Open Network</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-02 End -->
-
-                        <div id="modal-03" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" src="images/portfolio/matogrosso.png" alt="410" />
-
-                            <div class="description-box">
-                                <h4>Choropleth Map</h4>
-                                <ul>
-                                    <li>Mato Grosso IDH Map</li>
-                                    <li>Using leafletmap</li>
-                                </ul>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Data Visualization, Social Visualization, Map, Leaflet</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="projects/mapa_idh_mt.html" target="_blank">Open Map</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-03 End -->
-
-                        <div id="modal-04" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" src="images/portfolio/modals/410_2.png" alt="410" />
-
-                            <div class="description-box">
-                                <h4>ReviewsHub</h4>
-                                <p>A Review Analyzer for Best Buy Reviews. It has the following three functions:<br></p>
-                                <ul>
-                                    <li>Search Engine: Search in all the reviews about product properties that users queried</li>
-                                    <li>Compare Visualization: Search and visualize comparison patterns in reviews</li>
-                                    <li>Summarizer: Summarize long reviews to a few sentences</li>
-                                </ul>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnZC1OZlA1SXdDOGM/edit?usp=sharing" target="_blank">Download Final Report<img alt="pdf_icon" src="images/save_pdf.png" /></a></span>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Text mining, Information Retrieval, Django, Search, Comparison, Summarization</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="https://github.com/riffschelder/reviewshub" target="_blank">Details</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-04 End -->
-
-                        <div id="modal-05" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" style="height:380px;" src="images/portfolio/modals/242_redflag_2.png" alt="242_redflag" />
-
-                            <div class="description-box">
-                                <h4>Xiaodan's Portfolio</h4>
-                                <p>Features:</p>
-                                <ul>
-                                    <li>SVN code viewer with Comment Filter System</li>
-                                    <li>The SVN data were parsed with PHP so that the information of each commit could be seen</li>
-                                    <li>All Java codes for a Chess Library and Python codes for a CSAir Flight System can be shown with jQuery slide down effects</li>
-                                </ul>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Web Programming, SVN, Java, Python, PHP</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="http://web.engr.illinois.edu/~zhang349/Portfolio/" target="_blank">Visit Site</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-05 End -->
-
-                        <div id="modal-06" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" style="height:340px;" src="images/portfolio/modals/yummy_2.png" alt="yummy" />
-
-                            <div class="description-box">
-                                <h4>Yummy!</h4>
-                                <p>Users can invite their friends with QR codes and share restaurants with their friends. The communication is based on socket channel with low frequency polling which significantly reduced the number of requests processed by server.</p>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjncGpQTkttUXlndEE/edit?usp=sharing" target="_blank">Download Project Proposal<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjna080YTVhQVpsbWc/edit?usp=sharing" target="_blank">Download Technical Design File<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnXzFPWWdNejlsX1U/edit?usp=sharing" target="_blank">Download Wireframe Design File<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Mobile Web App, Facebook API, QR code, Google App Engine</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="http://yummy-webapp.appspot.com/login" target="_blank">Visit Site</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-06 End -->
-
-                        <div id="modal-07" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" style="height:350px;" src="images/portfolio/modals/todo_list_2.png" alt="todo_list" />
-
-                            <div class="description-box">
-                                <h4>Remember THESE!</h4>
-                                <p>Features:</p>
-                                <ul>
-                                    <li>Add and Remove list items</li>
-                                    <li>Multiple Lists, with names</li>
-                                    <li>Marking list items as done</li>
-                                    <li>A button to delete all done items in a list</li>
-                                    <li>List persist between browser sessions</li>
-                                    <li>Deadlines and the ability to sort by deadlines</li>
-                                    <li>Animations on almost all main actions</li>
-                                </ul>
-
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Mobile Web App, HTML5, Design, LocalStorage, Javascript</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="http://web.engr.illinois.edu/~zhang349/TODO-List/" target="_blank">Visit Site</a>
-                                <a href="https://github.com/Xiaodan/TodoList" target="_blank">Details</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-07 End -->
-
-                        <div id="modal-08" class="popup-modal mfp-hide">
-
-                            <div class="description-box">
-                                <h4>Breast Cancer Data Analysis</h4>
-                                <p>Breast cancer is a type of cancer that originates from breast tissue.
-                                    In this project, we will analyze a breast cancer dataset and use it to find genetic markers. For the selected genetic markers, we are going to give bio-functions corresponding to them and use the selected markers to predict the breast cancer. Then, we will discuss the limitations of the prediction model and some approaches to overcome them.</p>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnbDF2Z20yMVBfa0U/edit?usp=sharing" target="_blank">Download Final Project Report<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnTWFHc194Q3hzZms/edit?usp=sharing" target="_blank">Download Final Project Presentation<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnQWk5cFBoZnB4MUk/edit?usp=sharing" target="_blank">Download Final Project Codes<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnaXpwdHJfaHoyaHM/edit?usp=sharing" target="_blank">Download Final Project Data<img alt="pdf_icon" src="images/save_pdf.png" /></a></span>
-                                <span class="categories"><i class="fa fa-tag"></i>STAT, Biostatistics, R, LDA, T-Test, Heatmap, Predicted Model</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-08 End -->
-
-                        <div id="modal-09" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" style="height:350px;" src="images/portfolio/modals/personal_website_2.png" alt="personal_website" />
-
-                            <div class="description-box">
-                                <h4>Personal Website 1.0</h4>
-                                <p>This is my first personal website.<br>This is how I first stepped into the fantastic Web Programming world.
-                                    This project helped me learn a lot about Web Programming languages, skills and tricks.<br></p>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Personal Website, Web Programming</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="http://web.engr.illinois.edu/~zhang349/old" target="_blank">Visit Site</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-09 End -->
-
-                        <div id="modal-10" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" src="images/portfolio/modals/titanic_2.png" alt="titanic" />
-
-                            <div class="description-box">
-                                <h4>Titanic Data Anlysis</h4>
-                                <p>The sensational tragedy on April 15, 1912, the Titanic sank after colliding with an iceberg during her maiden voyage, killing 1502 out of 2224 passengers and crew, shocked the international community and led to better safety regulations for ships. We are also interested to know the survivals' characteristics.</p>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnNVVnNGQ1MEdadzA/edit?usp=sharing" target="_blank">Download Final Project Report<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnUjllN01mU1E4d0E/edit?usp=sharing" target="_blank">Download Final Project Questions<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnSU4xYTFudGd2SVU/edit?usp=sharing" target="_blank">Download Final Project Codes<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnbjJ5SnVSU0VROUE/edit?usp=sharing" target="_blank">Download Final Project Data<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnRlAxSVlVcnFfWWc/edit?usp=sharing" target="_blank">Download Helper Function File<img alt="pdf_icon" src="images/save_pdf.png" /></a></span>
-                                <span class="categories"><i class="fa fa-tag"></i>STAT, Kaggle, R, Linear Regression, Logistic Regression, Random Forest</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="https://github.com/Xiaodan/Titanic-Data-Analysis-Project" target="_blank">Details</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-10 End -->
-
-                        <div id="modal-11" class="popup-modal mfp-hide">
-
-                            <img class="scale-with-grid" src="images/portfolio/modals/paper_2.png" alt="paper" />
-
-                            <div class="description-box">
-                                <h4>Industry Sales for Printing and Writing Paper 1963-1972 Analysis</h4>
-                                <p>The time series data we analyze is the industry sales for printing and writing paper (in Thousand of French francs) from January 1963 to December 1972. We expect to fit a forecasting model for the monthly industry sales of printing and writing papers.</p>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnQ0Yza2FYQjRrR0k/edit?usp=sharing" target="_blank">Download Final Project Report<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnTzVRU0VtRDJhaEE/edit?usp=sharing" target="_blank">Download Final Project Codes<img alt="pdf_icon" src="images/save_pdf.png" /></a></span>
-                                <span class="categories"><i class="fa fa-tag"></i>STAT, R, Time Series, ARIMA, Spectral, Predicted Model</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="https://github.com/Xiaodan/Time-Series-Analysis-Project" target="_blank">Details</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-11 End -->
-
-                        <div id="modal-12" class="popup-modal mfp-hide">
-
-                            <div class="description-box">
-                                <h4>1985 Wages Data Analysis</h4>
-                                <p>The data we used were collected from the Current Population Survey (CPS) in the year of 1985, which provide supplement census information between census years.I mainly worked on checking whether an individual with higher wages was more likely to be in a management position or have a professional occupation than other who were not in these occupations.</p>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnaDJ6Y29NNExkSzQ/edit?usp=sharing" target="_blank">Download Final Project Report<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnRWRtT0RiS09uWUU/edit?usp=sharing" target="_blank">Download Final Project Codes<img alt="pdf_icon" src="images/save_pdf.png" /></a></span><br>
-                                <span class="download"><a href="https://drive.google.com/file/d/0B4U4hE0IYrjnOHJ5dzNQTzNBU2s/edit?usp=sharing" target="_blank">Download Final Project Data<img alt="pdf_icon" src="images/save_pdf.png" /></a></span>
-                                <span class="categories"><i class="fa fa-tag"></i>STAT, SAS, Logistic Regression, AIC</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-12 End -->
-
-                        <div id="modal-13" class="popup-modal mfp-hide">
-
-                            <div class="description-box">
-                                <h4>iBook2S</h4>
-                                <p>Our project goal was to create a WWW service that offers campus-based book exchange platform. Users enable to trade books according to their requirements and preferences. With the featured <b>Location</b> function, our site could provide both face-to-face deal information/notification and drop-and-pick service for inconsistent deal. With the powerful real-time <b>Bidding System</b> function, buyers could buy books with cheap and reasonable prices. We also added two advanced functions: one is <b>Parsing</b> that we grabbed book information from Amazon.com in order to give users enough references; the other is <b>Ranking System</b> that we gave it several scientific formulas and creative algorithms determined by multiple factors, in order to give the buyers better search services.</p>
-                                <span class="categories"><i class="fa fa-tag"></i>CS, Database System, PHP, MySQL, Ranking Function, Bidding</span>
-                            </div>
-
-                            <div class="link-box">
-                                <a href="https://wiki.cites.illinois.edu/wiki/display/cs411sp12/Xiaodan+Final+Report" target="_blank">Details</a>
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-
-                        </div><!-- modal-13 End -->
-
-                    </div> <!-- row End -->
-
-                </section> <!-- Portfolio Section End-->
+                </section> <!-- Records Section End-->
 
 
                 <!-- Contact Section
