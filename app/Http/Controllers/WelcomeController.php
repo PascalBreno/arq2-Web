@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Record;
+use App\record;
 
 class WelcomeController extends Controller
 {
@@ -12,14 +12,10 @@ class WelcomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
+   
     public function index()
     {
-        $records = \Records::all();
+        $records = record::all();
         return view('welcome')->with('bd',$records);
     }
 }
