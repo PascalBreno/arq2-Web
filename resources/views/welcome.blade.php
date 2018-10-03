@@ -130,7 +130,7 @@
             <img class="profile-pic" src="images/arduino1.jpg" alt=""/>
         </div>
 
-        <div class="nine columns ">
+        <div style= " margin-bottom:10%;"class="nine columns ">
             <h1>Sobre o projeto</h1>
             <br/>
 
@@ -144,12 +144,29 @@
 
         </div> <!-- end .main-col -->
 
+        <div style="margin-top:10%;" class ="row">
+        <div class="col col-md-2"></div>
+        <div class="col col-md-8">
+            <h1 style="margin-bottom:10%;margin-top:10%;"><span>Projeto</span></h1>
+            <div class="row">
+                <div class="columns">
+                    <img width="500" height="400" src="images/projetodone.jpg">
+                </div>
+                <p class="col col-md-5">
+                    Este é o prototipo do nosso trabalho feito na plataforma Fritzing, disponibilizaremos o arquivo juntamente com o código
+                </p>
+                <a href="https://github.com/PascalBreno/Projeto-Arqitetura-2" target="_blank" style="color:white"class="btn btn-lg btn-outline-primary">Acessar o código fonte</a>
+
+            </div>
+        </div>
+        <div class="col col-md-2"></div>
+    </div>
     </div> <!-- end outer row -->
     <div class ="row">
     <div class="col col-md-2"></div>
 <div class="col col-md-8">
         <h1 style="margin-top:5%;margin-bottom:5%;"><span>Dificuldades:</span></h1>
-    <h2><span>ESP8266:<span></h2> <p>Tivemos dificuldades durante a configuração do ESP para conectar na internet por comandos AT. Conseguimos resolver isso quando percebemos que ao programar anteriormente diretamente na placa do ESP o código upado é salvo nela até que um reset para o firmware de fábrica seja feito,  assim, respondendo aos comandos AT novamente. Após conseguirmos fazer com o que o ESP respondesse aos comandos AT, tentamos enviar uma string por meio do comando AT+CIPSEND para que por meio de um webservice o recorde fosse atualizado. Contudo,  por mais que o arduino enviasse a string certa e o servidor recebesse a string corretamente  a atualização não era realizada, resolvemos esse problema colocando um serial.Print() na próxima linha(???????)</p>
+    <h2><span>ESP8266:</span></h2> <p style="text-align:left;">Tivemos dificuldades durante a configuração do ESP para conectar na internet por comandos AT. Conseguimos resolver isso quando percebemos que ao programar anteriormente diretamente na placa do ESP o código upado é salvo nela até que um reset para o firmware de fábrica seja feito,  assim, respondendo aos comandos AT novamente. Após conseguirmos fazer com o que o ESP respondesse aos comandos AT, tentamos enviar uma string por meio do comando AT+CIPSEND para que por meio de um webservice o recorde fosse atualizado. Contudo,  por mais que o arduino enviasse a string certa e o servidor recebesse a string corretamente  a atualização não era realizada, resolvemos esse problema colocando um serial.Print() na próxima linha(???????)</p>
     <h2><span>Programação:</span></h2>
 
 <p>Tivemos problema durante a programação quando chegamos na parte do timer que controlava o término do jogo. Como no arduino todas as funções costumam ficar dentro do loop, não era possível fazer um timer para cada jogo se estivessem todos dentro do loop. Para resolver o problema nós criamos diversas funções fora do loop, chamando somente o menu dentro do loop.</p>
