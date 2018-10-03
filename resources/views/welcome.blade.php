@@ -400,7 +400,7 @@
                             <tr>
 
                                 <td>{{$record2s->name}}</td>
-                                <td>{{$record2s->record1}}</td>
+                                <td>{{$record2s->record2}}</td>
                                 <td>{{$record2s->datah}}</td>
                             </tr>
                         @endforeach
@@ -429,7 +429,7 @@
                             <tr>
 
                                 <td>{{$record3s->name}}</td>
-                                <td>{{$record3s->record1}}</td>
+                                <td>{{$record3s->record3}}</td>
                                 <td>{{$record3s->datah}}</td>
                             </tr>
                         @endforeach
