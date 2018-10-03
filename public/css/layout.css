@@ -503,6 +503,12 @@ ul#nav li.current a {
     margin-top: 6px;
 }
 
+#equipe{
+    background: #1c7430;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    overflow: hidden
+}
 
 /* ------------------------------------------------------------------ */
 /* f. record Section
@@ -915,31 +921,31 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* h. grupo Section
 /* ------------------------------------------------------------------ */
 
 /*
-#contact {
+#grupo {
     background: #191919;
     padding-top: 96px;
     padding-bottom: 102px;
     color: #636363;
 } */
 
-#contact .section-head { margin-bottom: 42px; }
+#grupo .section-head { margin-bottom: 42px; }
 /*
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#grupo a, #grupo a:visited  { color: #11ABB0; }
+#grupo a:hover, #grupo a:focus { color: #fff; }
 */
-#contact h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+#grupo h1 {
+    font: 28px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #000;
     margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+#grupo h1 span { display: none; }
+#grupo h1:before {
     font-family: 'FontAwesome';
     content: "\f0e0";
     padding-right: 10px;
@@ -950,21 +956,21 @@ ul#nav li.current a {
     color: #000;
 }
 
-#contact h4 {
+#grupo h4 {
     font: 16px/24px 'opensans-bold', sans-serif;
     color: #000;
     margin-bottom: 6px;
 }
 
 /*
-#contact p.lead {
+#grupo p.lead {
     font: 18px/36px 'opensans-light', sans-serif;
     padding-right: 3%;
 }
-#contact .header-col { padding-top: 6px; }
+#grupo .header-col { padding-top: 6px; }
 */
 
-#contact {
+#grupo {
     background: #ebeeef; /* changed from #2B2B2B */
     padding-top: 96px;
     padding-bottom: 35px; /* 66px */
@@ -973,64 +979,64 @@ ul#nav li.current a {
     font-family: 'MuseoSlab500', sans-serif;
 }
 
-#contact .emp {
+#grupo .emp {
     color: #f39c12;
     font: normal;
 }
 
-#contact a, #contact a:visited  {
+#grupo a, #grupo a:visited  {
     color: #5BBB9B;
     border-bottom: 1px dashed #000;
 }
-#contact a:hover, #contact a:focus {
+#grupo a:hover, #grupo a:focus {
     color: #ff9933; /* #11ABB0 */
     border-bottom: none;
 }
 
-#contact h2 {
+#grupo h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: #000;
     margin-bottom: 12px;
 }
 
-#contact p {
+#grupo p {
     font-size: 18px;
     line-height: 30px;
     color: #000; /* change from #7A7A7A */
 }
 
-#contact .contact-details {
+#grupo .grupo-details {
     width: 65%; /* 41.66667% */
     color: #000;
     font-size: 16px;
 }
 
-#contact ul {
+#grupo ul {
     list-style-type: disc;
     color: red;
 }
 
-#contact .download {
+#grupo .download {
     width: 35%; /* 58.33333% */
     padding-top: 6px;
 
 }
-#contact .main-col {
+#grupo .main-col {
     padding-right: 0%;
 }
 
-#contact .download .button {
+#grupo .download .button {
     margin-top: 6px;
     color: #fff;
     background: #34495E; /* #444 */
     border-bottom: none;
 }
 
-#contact .download .button:hover {
+#grupo .download .button:hover {
     background: #34495E; /* #fff */
     color: #16A085; /* #F1C40F #2B2B2B*/
 }
-#contact .download .button i {
+#grupo .download .button i {
     margin-right: 10px;
     font-size: 20px;
 }
