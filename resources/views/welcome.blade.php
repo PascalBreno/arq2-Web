@@ -24,22 +24,26 @@
 
     <!-- Script
     ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.3.1/datatables.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/analytics.js"></script>
     <script type="text/javascript" src="js/particles.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
             integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
     <!-- Favicons
     ================================================== -->
@@ -94,7 +98,7 @@
                 <button class="button">Acessar sua conta</button>
             </a>
             <a href="{{ route('register') }}">
-                <button class=button">Criar sua conta</button>
+                <button class="button">Criar sua conta</button>
             </a>
             @else
                 <h2>Seja bem vindo, <span class="caret">{{ Auth::user()->name }}</span></h2>
@@ -136,12 +140,27 @@
                 do jogador em diversas áreas, o terceiro jogo é baseado em binario, esse apresenta para o jogador um
                 numero em binário e o jogador devera responder o complemento de dois desse numero. É apresentada ao
                 jogador a opção de criar conta em nosso site para que esse receba sua ID que será utilizada pra salvar
-                os recordes do jogador em cada jogo. O jogo foi desenvolvido pelos alunos Breno, David, Henrique e Pedro
-                que cursam Ciencia da Computação da UFMT para a disciplina de Arquitetura de Computadores 2.</p>
+                os recordes do jogador em cada jogo.</p>
 
         </div> <!-- end .main-col -->
 
     </div> <!-- end outer row -->
+    <div class ="row">
+    <div class="col col-md-2"></div>
+<div class="col col-md-8">
+        <h1 style="margin-top:5%;margin-bottom:5%;"><span>Dificuldades:</span></h1>
+    <h2><span>ESP8266:<span></h2> <p>Tivemos dificuldades durante a configuração do ESP para conectar na internet por comandos AT. Conseguimos resolver isso quando percebemos que ao programar anteriormente diretamente na placa do ESP o código upado é salvo nela até que um reset para o firmware de fábrica seja feito,  assim, respondendo aos comandos AT novamente. Após conseguirmos fazer com o que o ESP respondesse aos comandos AT, tentamos enviar uma string por meio do comando AT+CIPSEND para que por meio de um webservice o recorde fosse atualizado. Contudo,  por mais que o arduino enviasse a string certa e o servidor recebesse a string corretamente  a atualização não era realizada, resolvemos esse problema colocando um serial.Print() na próxima linha(???????)</p>
+    <h2><span>Programação:</span></h2>
+
+<p>Tivemos problema durante a programação quando chegamos na parte do timer que controlava o término do jogo. Como no arduino todas as funções costumam ficar dentro do loop, não era possível fazer um timer para cada jogo se estivessem todos dentro do loop. Para resolver o problema nós criamos diversas funções fora do loop, chamando somente o menu dentro do loop.</p>
+    <p>O reset do projeto não inicializava  do zero, mas continuava de um estado já adicionado como o recorde  do jogo, tempo, pontuação, escolha do menu e conexão com o banco de dados, assim tivemos que criar um loop para a conexão do ID sem resetar.</p>
+    <p>Na programação dos jogos, em geral, a leitura do teclado foi um problema, já que o arduino funciona em looping infinito e adiciona informações continuamente  para o mesmo. Assim, ele não espera uma ação como a leitura do teclado para adicionar na string, então diversos loopings foram necessários para guardar informações do teclado.</p>
+    <h2><span>Arduino:</span></h2>
+ 
+<p>A tela Nokia 5110 teve diversos problemas por mal contato e a tela desaparecer durante o processo (Sem ser problema na programação).</p>
+</div>
+<div class="col col-md-2"></div>
+    </div>
 
 </section> <!-- About Section End-->
 
@@ -425,9 +444,50 @@
     <div class="row">
 
         <div class="collapsed">
-            <h1>Equipe</h1>
+            <h1 style="margin-bottom:5%;"><span>Equipe</span></h1>
+<div style="text-align:center">
+            <div style="margin: auto;max-height:600px; max-width:620px; width: auto; height: auto;" id="carouselExampleIndicators" class="carousel slide slideprincipal" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div  class="carousel-inner">
+        <div class="carousel-item active zoom">
+            <img  class="w-100" src="images/equipe/equipe1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block fundodescricaoslide">
+                <h5>30/09/2018</h5>
+                <p>Turma reunida</p>
+            </div>
+        </div>
+        <div class="carousel-item zoom">
+            <img   class="w-100" src="images/equipe/equipe2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block fundodescricaoslide ">
+                <div class="fundodescricaoslide"></div>
+                <h5>Petrucci pensativo...</h5>
+                <p>:o</p>
+            </div>
+        </div>
+        <div class="carousel-item zoom">
+            <img height="50%" width="50%" class="w-100" src="images/equipe/equipe3.jpg"alt="Third slide">
+            <div class="carousel-caption d-none d-md-block fundodescricaoslide">
+                <h5>Churrasco + programação</h5>
+                <p></p>
+            </div>
         </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+        </div>
+            </div>
 </section>
 
 <!-- footer
@@ -460,15 +520,7 @@
 
 <!-- Java Script
 ================================================== -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/waypoints.js"></script>
-<script src="js/jquery.fittext.js"></script>
-<script src="js/magnific-popup.js"></script>
-<script src="js/init.js"></script>
 <!-- <script type="text/javascript" src="back2top/back2top.js"></script> -->
 
 </body>
